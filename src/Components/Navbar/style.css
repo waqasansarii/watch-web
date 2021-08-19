@@ -1,0 +1,40 @@
+.cus_navbar{
+    padding: 12px 0px;
+}
+.navLinks{
+    text-decoration: none;
+    color: gainsboro;
+    margin: 0px 20px;
+}
+.navbar-collapse{
+    flex-grow: inherit !important;
+}
+
+/* sub navbar  */
+.subNavbar_container{
+    border: 2px solid gray;
+    padding: 15px 0px;
+    padding-bottom: 0px;
+}
+.subNavbar_ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+.subNav_link{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+@media (max-width:991px){
+    .navLinks{
+
+        margin-left: 0px;
+        padding: 10px 0px;
+    }
+
+}
